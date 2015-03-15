@@ -1,0 +1,66 @@
+* {
+	margin:0;
+}
+body {
+	padding:20px 0px 0px 20px;
+}
+h1 {
+	padding:0;
+	font-family: 'Tangerine', serif;
+	font-size:80px;
+	font-weight:normal;
+}
+canvas {
+	float:left;
+	cursor:pointer;
+}
+p {
+	font-size:11px;
+	font-family:Verdana,sans-serif;
+	margin:5px 0px 2px 0px;
+}
+p.subLine {
+	margin:0px 0px 5px 0px;
+	color:#777;
+}
+
+#panel {
+	float:left;
+	margin:0px 0px 0px 10px;
+}
+.subPanel {
+	width:450px;
+	padding:8px;
+	margin:5px 0px 0px 0px;
+	background-color:#eee;
+	border: 1px solid #aaa;
+	-moz-border-radius: 8px 8px 8px 8px;
+	border-radius: 8px 8px 8px 8px;
+}
+
+label {
+	font-family:Verdana;
+	font-size:11px;
+	float:left;
+	width:130px;
+	height:20px;
+	line-height:20px;
+	text-align:right;
+	margin:0px 4px 4px 0px;
+}
+input {
+	font-family:Verdana;
+	font-size:12px;
+	float:left;
+	width:140px;
+	margin:0px 0px 4px 0px;
+}
+textarea {
+	width:430px;
+	height:130px;
+}
+
+#go {
+	background-color:#fcc;
+	border:1px solid #FF6B6B;
+}

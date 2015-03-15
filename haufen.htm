@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>haufen</title>
+		
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="json.js"></script>
+		<script type="text/javascript" src="src.js"></script>
+		
+		<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie&subset=latin' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Tangerine&subset=latin' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<h1>Beautiful Haufens</h1>
+	
+		<p>Click Area below to place points.</p>
+		<p class="subLine">Let me trace that for you. (Hit Start...)</p>
+		
+		<canvas id="haufenCanvas" width="400" height="400" style="border: 1px dotted;"></canvas>
+		
+		<div id="panel">
+			<div class="subPanel">
+				<label for="">Raster:</label><input type="text" name="raster">
+				<br style="clear:both">
+				<label for="">Distanz Threshold:</label><input type="text" name="distThreshold">
+				<br style="clear:both">
+				<label for="">Settle Threshold:</label><input type="text" name="settleThreshold">
+				<br style="clear:both">
+				<label for="">Multiplikator:</label><input type="text" name="mult">
+				<br style="clear:both">
+				<br>
+				<label for="">Analysis Threshold:</label><input type="text" name="analysisThreshold">
+				<br style="clear:both">
+				<label for="">Analysis Radius:</label><input type="text" name="analysisRadius">
+				<br style="clear:both">
+			</div>
+			
+			<div class="subPanel">
+				<input type="button" id="anwenden" value="Anwenden">
+				<input type="button" id="ausb" value="no MPoints">
+				<br style="clear:both">
+			</div>
+			
+			<div class="subPanel">
+				<textarea name="loadConfig"></textarea>
+				<input type="button" id="load" value="Load Configuration">
+				<br style="clear:both">
+			</div>
+			
+			<div class="subPanel">
+				<textarea name="exportConfig"></textarea>
+				<input type="button" id="export" value="ExportConfig">
+				<br style="clear:both">
+			</div>
+		
+			<div class="subPanel" id="go">
+				<input type="button" id="step" value="step">
+				<input type="button" id="start" value="start">
+				<input type="button" id="startNoAnim" value="startNoAnim">
+				<br style="clear:both">
+			</div>
+			
+			<div class="subPanel">
+				<textarea name="exportBallen"></textarea>
+				<input type="button" id="exportBallen" value="exportBallen">
+				<br style="clear:both">
+			</div>
+		</div>
+		
+
+	</body>
+</html>
+
